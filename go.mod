@@ -1,4 +1,4 @@
-module github.com/dwhweb/strath_geeks_theme
+module github.com/StrathearnGeeks/strath_geeks_theme
 
 go 1.16
 
