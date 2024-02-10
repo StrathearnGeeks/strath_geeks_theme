@@ -2,7 +2,7 @@ import Collapse from 'js/bootstrap/src/collapse'
 
 // Sets up a given map control
 function setupMap(prefix, coords, address) {
-  let map = L.map(`${prefix}-map`);
+  let map = L.map(`${prefix}-map`, {scrollWheelZoom: false});
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
       attribution: '© OpenStreetMap'
